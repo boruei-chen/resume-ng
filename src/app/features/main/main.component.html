@@ -2,7 +2,7 @@
   <div class="main">
     <section #section [attr.data-section-id]="sectionIdEnum.Profile" class="main__section">
       <div class="main-profile">
-        <app-avatar [src]="'../../../../assets/images/personal/avatar/' + pageDataState.profile.avatar.image" [name]="pageDataState.profile.avatar.enName" class="main-profile__avatar"></app-avatar>
+        <app-avatar [src]="'assets/images/personal/avatar/' + pageDataState.profile.avatar.image" [name]="pageDataState.profile.avatar.enName" class="main-profile__avatar"></app-avatar>
         <div class="main-profile__name">{{ pageDataState.profile.name }}</div>
         <div class="main-profile__job-title">{{ pageDataState.profile.jobTitle }}</div>
         <div class="main-profile__information">
@@ -78,7 +78,7 @@
               <div class="main-work-experience__item">
                 <div class="main-work-experience__item-header">
                   <div class="main-work-experience__company-logo">
-                    <img [src]="'../../../assets/images/company/' + workExperience.company.logo" [alt]="workExperience.company.name">
+                    <img [src]="'assets/images/company/' + workExperience.company.logo" [alt]="workExperience.company.name">
                   </div>
                   <div class="main-work-experience__job-information">
                     <div class="main-work-experience__job-title">{{ workExperience.jobTitle }}</div>
@@ -123,7 +123,7 @@
               <div class="main-project-experience__item">
                 <div class="main-project-experience__item-media">
                   <video [autoplay]="true" [muted]="true" [loop]="true">
-                    <source [src]="'../../../assets/videos/projects/' + projectExperience.media.video" type="video/mp4">
+                    <source [src]="'assets/videos/projects/' + projectExperience.media.video" type="video/mp4">
                   </video>
                 </div>
                 <div class="main-project-experience__item-content">
