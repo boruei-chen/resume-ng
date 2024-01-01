@@ -14,7 +14,7 @@ export class ApiService {
   ) { }
 
   fetchMainPageData () {
-    return this.http.get<BaseResponse<MainPageDataResp>>('/assets/sources/main-page-data.json')
+    return this.http.get<BaseResponse<MainPageDataResp>>(`${location.href}assets/sources/main-page-data.json`)
       .pipe(map((response) => TransferService.checkHttpResponse(response) ? response.transferResponse : null));
   }
 }
