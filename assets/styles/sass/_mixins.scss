@@ -1,0 +1,24 @@
+@import 'src/assets/styles/sass/_variables.scss';
+
+@mixin responsive ($breakpoint-id) {
+  @if $breakpoint-id == $responsive__breakpoint-id--extra-large {
+    @media only screen and (min-width: ($responsive__breakpoint-px--large + 1)) {
+      @content;
+    }
+  }
+  @else if $breakpoint-id == $responsive__breakpoint-id--large {
+    @media only screen and (max-width: $responsive__breakpoint-px--large) {
+      @content;
+    }
+  }
+  @else if $breakpoint-id == $responsive__breakpoint-id--medium {
+    @media only screen and (max-width: $responsive__breakpoint-px--medium) {
+      @content;
+    }
+  }
+  @else if $breakpoint-id == $responsive__breakpoint-id--small {
+    @media only screen and (max-width: $responsive__breakpoint-px--small) {
+      @content;
+    }
+  }
+}
