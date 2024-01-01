@@ -1,0 +1,189 @@
+<ng-container *ngIf="pageDataState">
+  <div class="main">
+    <section #section [attr.data-section-id]="sectionIdEnum.Profile" class="main__section">
+      <div class="main-profile">
+        <app-avatar [src]="'../../../../assets/images/personal/avatar/' + pageDataState.profile.avatar.image" [name]="pageDataState.profile.avatar.enName" class="main-profile__avatar"></app-avatar>
+        <div class="main-profile__name">{{ pageDataState.profile.name }}</div>
+        <div class="main-profile__job-title">{{ pageDataState.profile.jobTitle }}</div>
+        <div class="main-profile__information">
+          <ul class="main-profile__contact-list">
+            <ng-container *ngFor="let contactItem of pageDataState.profile.contactList">
+              <li class="main-profile__contact-item">{{ contactItem.text }}</li>
+            </ng-container>
+          </ul>
+          <hr class="main-profile__divider">
+          <div class="main-profile__links">
+            <ng-container *ngFor="let link of pageDataState.profile.links">
+              <a [href]="link.url" target="_blank" class="main-profile__link">
+                <app-icon [name]="link.icon.name" [color]="iconColorsEnum.Grayscale" [class]="'main-profile__' + link.icon.name + '-icon'"></app-icon>
+              </a>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section #section [attr.data-section-id]="sectionIdEnum.History" class="main__section">
+      <div class="main-history">
+        <app-history-gallery [dataSource]="pageDataState.history"></app-history-gallery>
+      </div>
+    </section>
+    <section #section [attr.data-section-id]="sectionIdEnum.Skills" class="main__section">
+      <div class="main__section-inner">
+        <h2 class="main__section-title">專業技能</h2>
+        <div class="main__section-content">
+          <div class="main-skills">
+            <div class="main-skills__section">
+              <h5 class="main-skills__section-title">{{ pageDataState.skills.frontEnd.title }}</h5>
+              <div class="main-skills__section-content">
+                <ul class="main-skills__skill-list">
+                  <ng-container *ngFor="let skill of pageDataState.skills.frontEnd.list">
+                    <li class="main-skills__skill-item">
+                      <app-icon [name]="skill.icon.name" [class]="'main-skills__' + skill.icon.name + '-icon'"></app-icon>
+                      <span>{{ skill.text }}</span>
+                    </li>
+                  </ng-container>
+                </ul>
+              </div>
+            </div>
+            <div class="main-skills__section">
+              <h5 class="main-skills__section-title">{{ pageDataState.skills.nodePackages.title }}</h5>
+              <div class="main-skills__section-content">
+                <ul class="main-skills__skill-list">
+                  <ng-container *ngFor="let nodePackage of pageDataState.skills.nodePackages.list">
+                    <li class="main-skills__skill-tag main-skills__skill-tag--node-package">{{ nodePackage.text }}</li>
+                  </ng-container>
+                </ul>
+              </div>
+            </div>
+            <div class="main-skills__section">
+              <h5 class="main-skills__section-title">{{ pageDataState.skills.others.title }}</h5>
+              <div class="main-skills__section-content">
+                <ul class="main-skills__skill-list">
+                  <ng-container *ngFor="let other of pageDataState.skills.others.list">
+                    <li class="main-skills__skill-tag">{{ other.text }}</li>
+                  </ng-container>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section #section [attr.data-section-id]="sectionIdEnum.WorkExperience" class="main__section">
+      <div class="main__section-inner">
+        <h2 class="main__section-title">工作經歷</h2>
+        <div class="main__section-content">
+          <div class="main-work-experience">
+            <ng-container *ngFor="let workExperience of pageDataState.workExperience">
+              <div class="main-work-experience__item">
+                <div class="main-work-experience__item-header">
+                  <div class="main-work-experience__company-logo">
+                    <img [src]="'../../../assets/images/company/' + workExperience.company.logo" [alt]="workExperience.company.name">
+                  </div>
+                  <div class="main-work-experience__job-information">
+                    <div class="main-work-experience__job-title">{{ workExperience.jobTitle }}</div>
+                    <div class="main-work-experience__company-name">{{ workExperience.company.name }}</div>
+                    <div class="main-work-experience__period">
+                      <span>{{ workExperience.period.startDate }}</span>
+                      <span>-</span>
+                      <span>{{ workExperience.period.endDate ?? '至今' }}</span>
+                      <span appDateCount [startDate]="workExperience.period.startDate" [endDate]="workExperience.period.endDate"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="main-work-experience__item-body">
+                  <ng-container *ngIf="workExperience.preferment.length > 0">
+                    <div class="main-work-experience__preferment">
+                      <ng-container *ngFor="let preferment of workExperience.preferment">
+                        <div class="main-work-experience__preferment-item">
+                          <span>{{ preferment.date }}</span>
+                          <span>{{ preferment.jobTitle }}</span>
+                        </div>
+                      </ng-container>
+                    </div>
+                  </ng-container>
+                  <ul class="main-work-experience__conduct-content">
+                    <ng-container *ngFor="let conductItem of workExperience.conductContent">
+                      <li class="main-work-experience__conduct-item">{{ conductItem.text }}</li>
+                    </ng-container>
+                  </ul>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section #section [attr.data-section-id]="sectionIdEnum.ProjectExperience" class="main__section">
+      <div class="main__section-inner">
+        <h2 class="main__section-title">專案經歷</h2>
+        <div class="main__section-content">
+          <div class="main-project-experience">
+            <ng-container *ngFor="let projectExperience of pageDataState.projectExperience">
+              <div class="main-project-experience__item">
+                <div class="main-project-experience__item-media">
+                  <video [autoplay]="true" [muted]="true" [loop]="true">
+                    <source [src]="'../../../assets/videos/projects/' + projectExperience.media.video" type="video/mp4">
+                  </video>
+                </div>
+                <div class="main-project-experience__item-content">
+                  <div class="main-project-experience__name">{{ projectExperience.name }}</div>
+                  <div class="main-project-experience__type">{{ projectExperience.type }}</div>
+                  <div class="main-project-experience__technologies">
+                    <ng-container *ngFor="let technology of projectExperience.technologies">
+                      <app-icon [name]="technology.icon.name" [class]="'main-project-experience__' + technology.icon.name + '-icon'"></app-icon>
+                    </ng-container>
+                  </div>
+                  <div class="main-project-experience__node-packages">
+                    <ng-container *ngFor="let nodePackage of projectExperience.nodePackages">
+                      <div class="main-project-experience__node-package-tag">{{ nodePackage.text }}</div>
+                    </ng-container>
+                  </div>
+                  <ul class="main-project-experience__conduct-content">
+                    <ng-container *ngFor="let conductItem of projectExperience.conductContent">
+                      <li class="main-project-experience__conduct-item">{{ conductItem.text }}</li>
+                    </ng-container>
+                  </ul>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section #section [attr.data-section-id]="sectionIdEnum.SideProjects" class="main__section">
+      <div class="main__section-inner">
+        <h2 class="main__section-title">個人專案</h2>
+        <div class="main__section-content">
+          <div class="main-side-projects">
+            <ng-container *ngFor="let sideProject of pageDataState.sideProjects">
+              <div class="main-side-projects__item">
+                <div class="main-side-projects__item-language">
+                  <app-icon [name]="sideProject.language.icon.name" [class]="'main-side-projects__' + sideProject.language.icon.name + '-icon'"></app-icon>
+                </div>
+                <div class="main-side-projects__item-content">
+                  <div class="main-side-projects__header">
+                    <span class="main-side-projects__name">{{ sideProject.name }}</span>
+                    <div class="main-side-projects__links">
+                      <ng-container *ngFor="let link of sideProject.links">
+                        <a [href]="link.url" target="_blank" class="main-side-projects__link">
+                          <app-icon [name]="link.icon.name" [class]="'main-side-projects__' + link.icon.name + '-icon'"></app-icon>
+                        </a>
+                      </ng-container>
+                    </div>
+                  </div>
+                  <p class="main-side-projects__description">{{ sideProject.description }}</p>
+                  <ul class="main-side-projects__conduct-content">
+                    <ng-container *ngFor="let conductItem of sideProject.conductContent">
+                      <li class="main-side-projects__conduct-item">{{ conductItem.text }}</li>
+                    </ng-container>
+                  </ul>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</ng-container>

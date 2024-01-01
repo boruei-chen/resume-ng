@@ -1,0 +1,10 @@
+@import 'src/assets/styles/sass/_variables.scss';
+
+.copyright {
+  background-color: $palette__copyright-bg-color--primary;
+  padding: .625rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

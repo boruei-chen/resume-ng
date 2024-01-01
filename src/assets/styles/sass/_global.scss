@@ -1,0 +1,16 @@
+@import 'src/assets/styles/sass/_variables.scss';
+@import 'src/assets/styles/sass/_mixins.scss';
+
+body {
+  background-color: $palette__site-bg-color--primary;
+  color: $palette__site-font-color--primary;
+  font-size: $typography__font-size;
+  font-family: $typography__font-family;
+  @include responsive ($responsive__breakpoint-id--medium) {
+    font-size: .875rem;
+  }
+}
+
+.scroll-lockup {
+  overflow: hidden;
+}

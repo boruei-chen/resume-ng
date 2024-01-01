@@ -1,0 +1,28 @@
+@import 'src/assets/styles/sass/_variables.scss';
+
+.footer {
+  background-color: $palette__site-bg-color--secondary;
+  margin-top: 2.5rem;
+  &__inner {
+    padding: 7.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__creator {
+    opacity: .65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span {
+      color: $palette__site-font-color--secondary;
+      font-size: .875rem;
+    }
+    &::ng-deep {
+      .avatar {
+        margin-top: .9375rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<div class="history-gallery">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <ng-container *ngFor="let data of dataSource">
+        <div class="swiper-slide">
+          <div class="history-gallery__card">
+            <div class="history-gallery__card-inner">
+              <div class="history-gallery__card-media">
+                <img [src]="'../../../../assets/images/personal/history/' + data.year + '/' + data.media.image" [alt]="data.enName">
+              </div>
+              <div class="history-gallery__card-info">
+                <div class="history-gallery__year">
+                  <span>{{ data.year }}</span>
+                  <span>{{ data.yearUnitText }}</span>
+                </div>
+                <div class="history-gallery__company-name">{{ data.companyName }}</div>
+                <div class="history-gallery__job-title">{{ data.jobTitle }}</div>
+                <ul class="history-gallery__technologies">
+                  <ng-container *ngFor="let technology of data.technologies">
+                    <li class="history-gallery__technology-tag">{{ technology.text }}</li>
+                  </ng-container>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

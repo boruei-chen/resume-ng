@@ -1,0 +1,25 @@
+@import 'src/assets/styles/sass/_variables.scss';
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba($palette__base-black, .15);
+  overflow: hidden;
+  &__media {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      vertical-align: top;
+    }
+  }
+  &__abbr {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

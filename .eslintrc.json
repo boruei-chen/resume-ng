@@ -50,6 +50,28 @@
         ],
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-inferrable-types": "off",
+        "lines-between-class-members": [
+          "error",
+          {
+            "enforce": [
+              {
+                "blankLine": "never",
+                "prev": "field",
+                "next": "field"
+              },
+              {
+                "blankLine": "always",
+                "prev": "*",
+                "next": "method"
+              },
+              {
+                "blankLine": "always",
+                "prev": "method",
+                "next": "*"
+              }
+            ]
+          }
+        ],
         "semi": [
           "error",
           "always"

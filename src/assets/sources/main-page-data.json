@@ -1,0 +1,1249 @@
+{
+  "responseHeader": {
+    "returnCode": "0000",
+    "returnMessage": "Success"
+  },
+  "transferResponse": {
+    "profile": {
+      "avatar": {
+        "image": "Boruei-Chen.png"
+      },
+      "name": "陳柏睿",
+      "enName": "BO-RUEI CHEN",
+      "jobTitle": "網頁前端開發者",
+      "contactList": [
+        {
+          "id": "profile__contact-item__phone-number",
+          "text": "+886 981772822"
+        },
+        {
+          "id": "profile__contact-item__email",
+          "text": "boruei.brc@gmail.com"
+        }
+      ],
+      "links": [
+        {
+          "id": "profile__link__instagram",
+          "icon": {
+            "name": "instagram"
+          },
+          "url": "https://instagram.com/boruei.brc?igshid=OGQ5ZDc2ODk2ZA=="
+        },
+        {
+          "id": "profile__link__linkedin",
+          "icon": {
+            "name": "linkedin"
+          },
+          "url": "https://www.linkedin.com/in/%E6%9F%8F%E7%9D%BF-%E9%99%B3-a2719229a/"
+        },
+        {
+          "id": "profile__link__github",
+          "icon": {
+            "name": "github"
+          },
+          "url": "https://github.com/boruei-chen"
+        },
+        {
+          "id": "profile__link__npm",
+          "icon": {
+            "name": "npm"
+          },
+          "url": "https://www.npmjs.com/~boruei.chen"
+        }
+      ]
+    },
+    "history": [
+      {
+        "id": "history__2016",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2016",
+        "yearUnitText": "年",
+        "companyName": "創意點子數位股份有限公司",
+        "jobTitle": "軟體研發工程師",
+        "technologies": [
+          {
+            "id": "history__2016__technology__javascript",
+            "text": "JavaScript"
+          },
+          {
+            "id": "history__2016__technology__jquery",
+            "text": "jQuery"
+          }
+        ]
+      },
+      {
+        "id": "history__2017",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2017",
+        "yearUnitText": "年",
+        "companyName": "創意點子數位股份有限公司",
+        "jobTitle": "軟體研發工程師",
+        "technologies": [
+          {
+            "id": "history__2017__technology__javascript",
+            "text": "JavaScript"
+          },
+          {
+            "id": "history__2017__technology__jquery",
+            "text": "jQuery"
+          }
+        ]
+      },
+      {
+        "id": "history__2018",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2018",
+        "yearUnitText": "年",
+        "companyName": "創意點子數位股份有限公司",
+        "jobTitle": "軟體研發工程師",
+        "technologies": [
+          {
+            "id": "history__2018__technology__javascript",
+            "text": "JavaScript"
+          },
+          {
+            "id": "history__2018__technology__jquery",
+            "text": "jQuery"
+          }
+        ]
+      },
+      {
+        "id": "history__2019",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2019",
+        "yearUnitText": "年",
+        "companyName": "昕力資訊股份有限公司",
+        "jobTitle": "工程師",
+        "technologies": [
+          {
+            "id": "history__2019__technology__react",
+            "text": "React"
+          },
+          {
+            "id": "history__2019__technology__typescript",
+            "text": "TypeScript"
+          }
+        ]
+      },
+      {
+        "id": "history__2020",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2020",
+        "yearUnitText": "年",
+        "companyName": "昕力資訊股份有限公司",
+        "jobTitle": "資深工程師",
+        "technologies": [
+          {
+            "id": "history__2020__technology__react",
+            "text": "React"
+          },
+          {
+            "id": "history__2020__technology__angular",
+            "text": "Angular"
+          },
+          {
+            "id": "history__2020__technology__typescript",
+            "text": "TypeScript"
+          }
+        ]
+      },
+      {
+        "id": "history__2021",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2021",
+        "yearUnitText": "年",
+        "companyName": "昕力資訊股份有限公司",
+        "jobTitle": "資深工程師",
+        "technologies": [
+          {
+            "id": "history__2021__technology__react",
+            "text": "React"
+          },
+          {
+            "id": "history__2021__technology__angular",
+            "text": "Angular"
+          },
+          {
+            "id": "history__2021__technology__typescript",
+            "text": "TypeScript"
+          }
+        ]
+      },
+      {
+        "id": "history__2022",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2022",
+        "yearUnitText": "年",
+        "companyName": "昕力資訊股份有限公司",
+        "jobTitle": "系統設計師",
+        "technologies": [
+          {
+            "id": "history__2022__technology__react",
+            "text": "React"
+          },
+          {
+            "id": "history__2022__technology__angular",
+            "text": "Angular"
+          },
+          {
+            "id": "history__2022__technology__typescript",
+            "text": "TypeScript"
+          }
+        ]
+      },
+      {
+        "id": "history__2023",
+        "media": {
+          "image": "Boruei-Chen.png"
+        },
+        "enName": "BO-RUEI CHEN",
+        "year": "2023",
+        "yearUnitText": "年",
+        "companyName": "昕力資訊股份有限公司",
+        "jobTitle": "系統設計師",
+        "technologies": [
+          {
+            "id": "history__2023__technology__react",
+            "text": "React"
+          },
+          {
+            "id": "history__2023__technology__angular",
+            "text": "Angular"
+          },
+          {
+            "id": "history__2023__technology__typescript",
+            "text": "TypeScript"
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "frontEnd": {
+        "title": "Front-End",
+        "list": [
+          {
+            "id": "skills__front-end__html",
+            "icon": {
+              "name": "html"
+            },
+            "text": "HTML"
+          },
+          {
+            "id": "skills__front-end__css",
+            "icon": {
+              "name": "css"
+            },
+            "text": "CSS"
+          },
+          {
+            "id": "skills__front-end__javascript",
+            "icon": {
+              "name": "javascript"
+            },
+            "text": "JavaScript"
+          },
+          {
+            "id": "skills__front-end__typescript",
+            "icon": {
+              "name": "typescript"
+            },
+            "text": "TypeScript"
+          },
+          {
+            "id": "skills__front-end__react",
+            "icon": {
+              "name": "react"
+            },
+            "text": "React"
+          },
+          {
+            "id": "skills__front-end__angular",
+            "icon": {
+              "name": "angular"
+            },
+            "text": "Angular"
+          }
+        ]
+      },
+      "nodePackages": {
+        "title": "Node Packages",
+        "list": [
+          {
+            "id": "skills__node-package__redux",
+            "text": "redux"
+          },
+          {
+            "id": "skills__node-package__redux-saga",
+            "text": "redux-saga"
+          },
+          {
+            "id": "skills__node-package__axios",
+            "text": "axios"
+          },
+          {
+            "id": "skills__node-package__react-hook-form",
+            "text": "react-hook-form"
+          },
+          {
+            "id": "skills__node-package__formik",
+            "text": "formik"
+          },
+          {
+            "id": "skills__node-package__yup",
+            "text": "yup"
+          },
+          {
+            "id": "skills__node-package__antd",
+            "text": "antd"
+          },
+          {
+            "id": "skills__node-package__@mui/material",
+            "text": "@mui/material"
+          },
+          {
+            "id": "skills__node-package__primereact",
+            "text": "primereact"
+          },
+          {
+            "id": "skills__node-package__primeng",
+            "text": "primeng"
+          },
+          {
+            "id": "skills__node-package__bootstrap",
+            "text": "bootstrap"
+          },
+          {
+            "id": "skills__node-package__sass",
+            "text": "sass"
+          },
+          {
+            "id": "skills__node-package__styled-components",
+            "text": "styled-components"
+          },
+          {
+            "id": "skills__node-package__swiper",
+            "text": "swiper"
+          },
+          {
+            "id": "skills__node-package__suneditor",
+            "text": "suneditor"
+          },
+          {
+            "id": "skills__node-package__cross-env",
+            "text": "cross-env"
+          },
+          {
+            "id": "skills__node-package__file-saver",
+            "text": "file-saver"
+          },
+          {
+            "id": "skills__node-package__react-stomp-hooks",
+            "text": "react-stomp-hooks"
+          },
+          {
+            "id": "skills__node-package__rxjs",
+            "text": "rxjs"
+          },
+          {
+            "id": "skills__node-package__lodash",
+            "text": "lodash"
+          },
+          {
+            "id": "skills__node-package__moment",
+            "text": "moment"
+          },
+          {
+            "id": "skills__node-package__semantic-release",
+            "text": "semantic-release"
+          },
+          {
+            "id": "skills__node-package__crypto-js",
+            "text": "crypto-js"
+          },
+          {
+            "id": "skills__node-package__storybook",
+            "text": "storybook"
+          },
+          {
+            "id": "skills__node-package__eslint",
+            "text": "eslint"
+          },
+          {
+            "id": "skills__node-package__jest",
+            "text": "jest"
+          }
+        ]
+      },
+      "others": {
+        "title": "Others",
+        "list": [
+          {
+            "id": "skills__other__git",
+            "text": "Git"
+          },
+          {
+            "id": "skills__other__git-flow",
+            "text": "Git Flow"
+          },
+          {
+            "id": "skills__other__github",
+            "text": "GitHub"
+          },
+          {
+            "id": "skills__other__github-actions",
+            "text": "GitHub Actions"
+          },
+          {
+            "id": "skills__other__github-desktop",
+            "text": "GitHub Desktop"
+          },
+          {
+            "id": "skills__other__gitlab",
+            "text": "GitLab"
+          },
+          {
+            "id": "skills__other__bitbucket",
+            "text": "Bitbucket"
+          },
+          {
+            "id": "skills__other__sourcetree",
+            "text": "Sourcetree"
+          },
+          {
+            "id": "skills__other__travis-ci",
+            "text": "Travis-CI"
+          },
+          {
+            "id": "skills__other__firebase",
+            "text": "Firebase"
+          },
+          {
+            "id": "skills__other__airtable",
+            "text": "Airtable"
+          },
+          {
+            "id": "skills__other__asana",
+            "text": "Asana"
+          },
+          {
+            "id": "skills__other__trello",
+            "text": "Trello"
+          },
+          {
+            "id": "skills__other__mantis-bug-tracker",
+            "text": "Mantis Bug Tracker"
+          },
+          {
+            "id": "skills__other__storybook",
+            "text": "Storybook"
+          }
+        ]
+      }
+    },
+    "workExperience": [
+      {
+        "id": "work-experience__tpi",
+        "company": {
+          "logo": "tpi-software.png",
+          "name": "昕力資訊股份有限公司"
+        },
+        "jobTitle": "系統設計師",
+        "period": {
+          "startDate": "2019/03",
+          "endDate": null
+        },
+        "preferment": [
+          {
+            "id": "work-experience__tpi__preferment__pg",
+            "date": "2019/03",
+            "jobTitle": "工程師"
+          },
+          {
+            "id": "work-experience__tpi__preferment__sr.pg",
+            "date": "2020/01",
+            "jobTitle": "資深工程師"
+          },
+          {
+            "id": "work-experience__tpi__preferment__sd",
+            "date": "2022/06",
+            "jobTitle": "系統設計師"
+          }
+        ],
+        "conductContent": [
+          {
+            "id": "work-experience__tpi__conduct-item__1",
+            "text": "擔任事業處前端技術組組長。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__2",
+            "text": "主要使用 React（搭配 TypeScript）進行專案開發。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__3",
+            "text": "主要使用 Angular 進行專案開發。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__4",
+            "text": "負責架構設計與構建（現行架構已執行過多個專案）。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__5",
+            "text": "網頁切版、響應式網頁（Responsive Web Design，RWD）切版。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__6",
+            "text": "組件設計與開發（React、Angular）、複合式組件（Compound Component）設計與開發（React）。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__7",
+            "text": "與系統分析師合作，討論、評估操作流程與動線的可行性。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__8",
+            "text": "與後端工程師合作，討論資料內容層級與格式、串接內部 API。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__9",
+            "text": "負責協助事業處 Interview 前端工程師。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__10",
+            "text": "指導前端工程師開發、技術面的問題，並給予方向。"
+          },
+          {
+            "id": "work-experience__tpi__conduct-item__11",
+            "text": "專案開發項目的排程與分配。"
+          }
+        ]
+      },
+      {
+        "id": "work-experience__bi",
+        "company": {
+          "logo": "bravo-ideas.png",
+          "name": "創意點子數位股份有限公司"
+        },
+        "jobTitle": "軟體研發工程師",
+        "period": {
+          "startDate": "2016/11",
+          "endDate": "2019/02"
+        },
+        "preferment": [],
+        "conductContent": [
+          {
+            "id": "work-experience__bi__conduct-item__1",
+            "text": "主要使用 JavaScript（搭配 jQuery）進行專案開發。"
+          },
+          {
+            "id": "work-experience__bi__conduct-item__2",
+            "text": "與 UI/UX 設計師合作，討論操作流程、評估動態效果的可行性。"
+          },
+          {
+            "id": "work-experience__bi__conduct-item__3",
+            "text": "網頁切版、響應式網頁（Responsive Web Design，RWD）切版。"
+          },
+          {
+            "id": "work-experience__bi__conduct-item__4",
+            "text": "與後端工程師合作，討論資料內容層級與格式、串接內部 API。"
+          },
+          {
+            "id": "work-experience__bi__conduct-item__5",
+            "text": "網站第三方登入串接 － Facebook Login（Facebook JavaScript SDK）。"
+          },
+          {
+            "id": "work-experience__bi__conduct-item__6",
+            "text": "使用 Google Chart API 製作後台圖表功能。"
+          },
+          {
+            "id": "work-experience__bi__conduct-item__7",
+            "text": "使用 WordPress 建置公司形象網站。"
+          }
+        ]
+      }
+    ],
+    "projectExperience": [
+      {
+        "id": "project-experience__twfhclife-ois",
+        "media": {
+          "video": "twfhclife-ois.mov"
+        },
+        "name": "臺銀人壽",
+        "type": "網路投保平台",
+        "technologies": [
+          {
+            "id": "project-experience__twfhclife-ois__technology__react",
+            "icon": {
+              "name": "react"
+            }
+          },
+          {
+            "id": "project-experience__twfhclife-ois__technology__typescript",
+            "icon": {
+              "name": "typescript"
+            }
+          }
+        ],
+        "nodePackages": [
+          {
+            "id": "project-experience__twfhclife-ois__node-package__node-sass",
+            "text": "node-sass"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__swiper",
+            "text": "swiper"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__redux",
+            "text": "redux"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__redux-saga",
+            "text": "redux-saga"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__react-hook-form",
+            "text": "react-hook-form"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__yup",
+            "text": "yup"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__axios",
+            "text": "axios"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__react-stomp-hooks",
+            "text": "react-stomp-hooks"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__node-package__eslint",
+            "text": "eslint"
+          }
+        ],
+        "conductContent": [
+          {
+            "id": "project-experience__twfhclife-ois__conduct-item__1",
+            "text": "使用 React（搭配 TypeScript）進行開發。"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__conduct-item__2",
+            "text": "負責專案架構設計與構建。"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__conduct-item__3",
+            "text": "負責導入 ESLint 制定程式碼寫作風格與規範。"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__conduct-item__4",
+            "text": "組件的規劃設計與開發。"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__conduct-item__5",
+            "text": "與後端工程師合作，討論資料內容層級與格式、串接內部 API。"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__conduct-item__6",
+            "text": "負責指導前端工程師開發、技術面的問題，並給予方向。"
+          },
+          {
+            "id": "project-experience__twfhclife-ois__conduct-item__7",
+            "text": "負責專案開發項目的排程與分配。"
+          }
+        ]
+      },
+      {
+        "id": "project-experience__twfhclife-claim",
+        "media": {
+          "video": "twfhclife-claim.mov"
+        },
+        "name": "臺銀人壽",
+        "type": "理賠作業系統",
+        "technologies": [
+          {
+            "id": "project-experience__twfhclife-claim__technology__react",
+            "icon": {
+              "name": "react"
+            }
+          },
+          {
+            "id": "project-experience__twfhclife-claim__technology__typescript",
+            "icon": {
+              "name": "typescript"
+            }
+          }
+        ],
+        "nodePackages": [
+          {
+            "id": "project-experience__twfhclife-claim__node-package__node-sass",
+            "text": "node-sass"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__antd",
+            "text": "antd"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__redux",
+            "text": "redux"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__redux-saga",
+            "text": "redux-saga"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__react-hook-form",
+            "text": "react-hook-form"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__yup",
+            "text": "yup"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__axios",
+            "text": "axios"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__suneditor",
+            "text": "suneditor"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__node-package__eslint",
+            "text": "eslint"
+          }
+        ],
+        "conductContent": [
+          {
+            "id": "project-experience__twfhclife-claim__conduct-item__1",
+            "text": "使用 React（搭配 TypeScript）進行開發。"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__conduct-item__2",
+            "text": "負責專案架構設計與構建。"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__conduct-item__3",
+            "text": "負責導入 ESLint 制定程式碼寫作風格與規範。"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__conduct-item__4",
+            "text": "組件的規劃設計與開發。"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__conduct-item__5",
+            "text": "與後端工程師合作，討論資料內容層級與格式、串接內部 API。"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__conduct-item__6",
+            "text": "負責指導前端工程師開發、技術面的問題，並給予方向。"
+          },
+          {
+            "id": "project-experience__twfhclife-claim__conduct-item__7",
+            "text": "負責專案開發項目的排程與分配。"
+          }
+        ]
+      },
+      {
+        "id": "project-experience__chungkuo-cki",
+        "media": {
+          "video": "chungkuo-cki.mov"
+        },
+        "name": "兆豐產物保險",
+        "type": "網路投保平台",
+        "technologies": [
+          {
+            "id": "project-experience__chungkuo-cki__technology__react",
+            "icon": {
+              "name": "react"
+            }
+          },
+          {
+            "id": "project-experience__chungkuo-cki__technology__typescript",
+            "icon": {
+              "name": "typescript"
+            }
+          }
+        ],
+        "nodePackages": [
+          {
+            "id": "project-experience__chungkuo-cki__node-package__node-sass",
+            "text": "node-sass"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__node-package__redux",
+            "text": "redux"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__node-package__redux-saga",
+            "text": "redux-saga"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__node-package__formik",
+            "text": "formik"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__node-package__yup",
+            "text": "yup"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__node-package__axios",
+            "text": "axios"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__node-package__eslint",
+            "text": "eslint"
+          }
+        ],
+        "conductContent": [
+          {
+            "id": "project-experience__chungkuo-cki__conduct-item__1",
+            "text": "使用 React（搭配 TypeScript）進行開發。"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__conduct-item__2",
+            "text": "負責專案架構設計與構建。"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__conduct-item__3",
+            "text": "負責導入 ESLint 制定程式碼寫作風格與規範。"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__conduct-item__4",
+            "text": "組件的規劃設計與開發。"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__conduct-item__5",
+            "text": "與後端工程師合作，討論資料內容層級與格式、串接內部 API。"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__conduct-item__6",
+            "text": "負責指導前端工程師開發、技術面的問題，並給予方向。"
+          },
+          {
+            "id": "project-experience__chungkuo-cki__conduct-item__7",
+            "text": "負責專案開發項目的排程與分配。"
+          }
+        ]
+      },
+      {
+        "id": "project-experience__wwunion-wwu",
+        "media": {
+          "video": "wwunion-wwu.mov"
+        },
+        "name": "旺旺友聯產物保險",
+        "type": "網路投保平台",
+        "technologies": [
+          {
+            "id": "project-experience__wwunion-wwu__technology__react",
+            "icon": {
+              "name": "react"
+            }
+          },
+          {
+            "id": "project-experience__wwunion-wwu__technology__typescript",
+            "icon": {
+              "name": "typescript"
+            }
+          }
+        ],
+        "nodePackages": [
+          {
+            "id": "project-experience__wwunion-wwu__node-package__node-sass",
+            "text": "node-sass"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__node-package__antd",
+            "text": "antd"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__node-package__swiper",
+            "text": "swiper"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__node-package__redux",
+            "text": "redux"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__node-package__formik",
+            "text": "formik"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__node-package__yup",
+            "text": "yup"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__node-package__axios",
+            "text": "axios"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__node-package__eslint",
+            "text": "eslint"
+          }
+        ],
+        "conductContent": [
+          {
+            "id": "project-experience__wwunion-wwu__conduct-item__1",
+            "text": "使用 React（搭配 TypeScript）進行開發。"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__conduct-item__2",
+            "text": "負責建立專案架構。"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__conduct-item__3",
+            "text": "負責導入 ESLint 制定程式碼寫作風格與規範。"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__conduct-item__4",
+            "text": "負責網頁切版、響應式網頁（Responsive Web Design，RWD）切版，導入 BEM 命名模式。"
+          },
+          {
+            "id": "project-experience__wwunion-wwu__conduct-item__5",
+            "text": "與後端工程師合作，討論資料內容層級與格式、串接內部 API。"
+          }
+        ]
+      },
+      {
+        "id": "project-experience__fubon-lrs",
+        "media": {
+          "video": "fubon-lrs.mov"
+        },
+        "name": "富邦產物保險",
+        "type": "再保系統",
+        "technologies": [
+          {
+            "id": "project-experience__fubon-lrs__technology__angular",
+            "icon": {
+              "name": "angular"
+            }
+          },
+          {
+            "id": "project-experience__fubon-lrs__technology__typescript",
+            "icon": {
+              "name": "typescript"
+            }
+          }
+        ],
+        "nodePackages": [
+          {
+            "id": "project-experience__fubon-lrs__node-package__bootstrap",
+            "text": "bootstrap"
+          },
+          {
+            "id": "project-experience__fubon-lrs__node-package__primeng",
+            "text": "primeng"
+          },
+          {
+            "id": "project-experience__fubon-lrs__node-package__rxjs",
+            "text": "rxjs"
+          }
+        ],
+        "conductContent": [
+          {
+            "id": "project-experience__fubon-lrs__conduct-item__1",
+            "text": "使用 Angular 進行開發。"
+          },
+          {
+            "id": "project-experience__fubon-lrs__conduct-item__2",
+            "text": "使用 Bootstrap 製作網頁版面。"
+          },
+          {
+            "id": "project-experience__fubon-lrs__conduct-item__3",
+            "text": "與後端工程師合作，討論資料內容層級與格式、串接內部 API。"
+          },
+          {
+            "id": "project-experience__fubon-lrs__conduct-item__4",
+            "text": "負責專案開發項目的排程與分配。"
+          }
+        ]
+      }
+    ],
+    "sideProjects": [
+      {
+        "id": "side-projects__materials",
+        "language": {
+          "icon": {
+            "name": "react"
+          }
+        },
+        "name": "materials",
+        "links": [
+          {
+            "id": "side-projects__materials__link__storybook",
+            "icon": {
+              "name": "storybook"
+            },
+            "url": "https://boruei-chen.github.io/materials/"
+          },
+          {
+            "id": "side-projects__materials__link__github",
+            "icon": {
+              "name": "github"
+            },
+            "url": "https://github.com/boruei-chen/materials"
+          },
+          {
+            "id": "side-projects__materials__link__npm",
+            "icon": {
+              "name": "npm"
+            },
+            "url": "https://www.npmjs.com/package/@boruei.chen/materials"
+          }
+        ],
+        "description": "取名為 BRC Materials，是一套 React Component Library。",
+        "conductContent": [
+          {
+            "id": "side-projects__materials__conduct-item__1",
+            "text": "使用 React（搭配 TypeScript）進行開發。"
+          },
+          {
+            "id": "side-projects__materials__conduct-item__2",
+            "text": "使用 GitHub Actions 構建 CI/CD，實現自動化部署發佈至 npm。"
+          },
+          {
+            "id": "side-projects__materials__conduct-item__3",
+            "text": "自動化部署流程導入 Semantic Release，實現自動產生語易化版號。"
+          },
+          {
+            "id": "side-projects__materials__conduct-item__4",
+            "text": "撰寫 Storybook，構建 UI Component Page，展示 Component 實例。"
+          }
+        ]
+      },
+      {
+        "id": "side-projects__react-hook-form-materials",
+        "language": {
+          "icon": {
+            "name": "react"
+          }
+        },
+        "name": "react-hook-form-materials",
+        "links": [
+          {
+            "id": "side-projects__react-hook-form-materials__link__storybook",
+            "icon": {
+              "name": "storybook"
+            },
+            "url": "https://boruei-chen.github.io/react-hook-form-materials/"
+          },
+          {
+            "id": "side-projects__react-hook-form-materials__link__github",
+            "icon": {
+              "name": "github"
+            },
+            "url": "https://github.com/boruei-chen/react-hook-form-materials"
+          },
+          {
+            "id": "side-projects__react-hook-form-materials__link__npm",
+            "icon": {
+              "name": "npm"
+            },
+            "url": "https://www.npmjs.com/package/@boruei.chen/react-hook-form-materials"
+          }
+        ],
+        "description": "BRC Materials 整合 React Hook Form。",
+        "conductContent": [
+          {
+            "id": "side-projects__react-hook-form-materials__conduct-item__1",
+            "text": "使用 React（搭配 TypeScript）進行開發。"
+          },
+          {
+            "id": "side-projects__react-hook-form-materials__conduct-item__2",
+            "text": "使用 GitHub Actions 構建 CI/CD，實現自動化部署發佈至 npm。"
+          },
+          {
+            "id": "side-projects__react-hook-form-materials__conduct-item__3",
+            "text": "自動化部署流程導入 Semantic Release，實現自動產生語易化版號。"
+          },
+          {
+            "id": "side-projects__react-hook-form-materials__conduct-item__4",
+            "text": "撰寫 Storybook，構建 UI Component Page，展示 Component 實例。"
+          }
+        ]
+      },
+      {
+        "id": "side-projects__utils",
+        "language": {
+          "icon": {
+            "name": "typescript"
+          }
+        },
+        "name": "utils",
+        "links": [
+          {
+            "id": "side-projects__utils__link__github",
+            "icon": {
+              "name": "github"
+            },
+            "url": "https://github.com/boruei-chen/utils"
+          },
+          {
+            "id": "side-projects__utils__link__npm",
+            "icon": {
+              "name": "npm"
+            },
+            "url": "https://www.npmjs.com/package/@boruei.chen/utils"
+          }
+        ],
+        "description": "撰寫自己認為實用的 Function。",
+        "conductContent": [
+          {
+            "id": "side-projects__utils__conduct-item__1",
+            "text": "使用 TypeScript 進行開發。"
+          },
+          {
+            "id": "side-projects__utils__conduct-item__2",
+            "text": "使用 GitHub Actions 構建 CI/CD，實現自動化部署發佈至 npm。"
+          },
+          {
+            "id": "side-projects__utils__conduct-item__3",
+            "text": "自動化部署流程導入 Semantic Release，實現自動產生語易化版號。"
+          }
+        ]
+      },
+      {
+        "id": "side-projects__resume-react",
+        "language": {
+          "icon": {
+            "name": "react"
+          }
+        },
+        "name": "resume-react",
+        "links": [
+          {
+            "id": "side-projects__resume-react__link__github",
+            "icon": {
+              "name": "github"
+            },
+            "url": "https://github.com/boruei-chen/resume-react"
+          },
+          {
+            "id": "side-projects__resume-react__link__redirect",
+            "icon": {
+              "name": "redirect"
+            },
+            "url": "https://boruei-chen.github.io/resume-react/"
+          }
+        ],
+        "description": "個人網站（網頁版履歷）。",
+        "conductContent": [
+          {
+            "id": "side-projects__resume-react__conduct-item__1",
+            "text": "使用 React（搭配 TypeScript）進行開發。"
+          },
+          {
+            "id": "side-projects__resume-react__conduct-item__2",
+            "text": "網頁切版、響應式網頁（Responsive Web Design，RWD）切版。"
+          },
+          {
+            "id": "side-projects__resume-react__conduct-item__3",
+            "text": "使用 Styled Components，以組件的思考模式撰寫樣式。"
+          }
+        ]
+      },
+      {
+        "id": "side-projects__resume-ng",
+        "language": {
+          "icon": {
+            "name": "angular"
+          }
+        },
+        "name": "resume-ng",
+        "links": [
+          {
+            "id": "side-projects__resume-ng__link__github",
+            "icon": {
+              "name": "github"
+            },
+            "url": "https://github.com/boruei-chen/resume-ng"
+          },
+          {
+            "id": "side-projects__resume-ng__link__redirect",
+            "icon": {
+              "name": "redirect"
+            },
+            "url": "https://boruei-chen.github.io/resume-ng/"
+          }
+        ],
+        "description": "個人網站（網頁版履歷）。",
+        "conductContent": [
+          {
+            "id": "side-projects__resume-ng__conduct-item__1",
+            "text": "使用 Angular 進行開發。"
+          },
+          {
+            "id": "side-projects__resume-ng__conduct-item__2",
+            "text": "網頁切版、響應式網頁（Responsive Web Design，RWD）切版。"
+          },
+          {
+            "id": "side-projects__resume-ng__conduct-item__3",
+            "text": "使用 Sass（搭配 BEM 命名模式）撰寫樣式。"
+          }
+        ]
+      },
+      {
+        "id": "side-projects__sky-bandit",
+        "language": {
+          "icon": {
+            "name": "javascript"
+          }
+        },
+        "name": "sky-bandit",
+        "links": [
+          {
+            "id": "side-projects__sky-bandit__link__github",
+            "icon": {
+              "name": "github"
+            },
+            "url": "https://github.com/boruei-chen/sky-bandit"
+          },
+          {
+            "id": "side-projects__sky-bandit__link__redirect",
+            "icon": {
+              "name": "redirect"
+            },
+            "url": "https://boruei-chen.github.io/sky-bandit/"
+          }
+        ],
+        "description": "單頁式網頁。",
+        "conductContent": [
+          {
+            "id": "side-projects__sky-bandit__conduct-item__1",
+            "text": "使用 JavaScript 進行開發。"
+          },
+          {
+            "id": "side-projects__sky-bandit__conduct-item__2",
+            "text": "網頁切版、響應式網頁（Responsive Web Design，RWD）切版。"
+          },
+          {
+            "id": "side-projects__sky-bandit__conduct-item__3",
+            "text": "使用 Sass（搭配 BEM 命名模式）撰寫樣式。"
+          },
+          {
+            "id": "side-projects__sky-bandit__conduct-item__4",
+            "text": "網頁動態效果皆使用原生 JavaScript（搭配 CSS）達成。"
+          }
+        ]
+      }
+    ]
+  }
+}

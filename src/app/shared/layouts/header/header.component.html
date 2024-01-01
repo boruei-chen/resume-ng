@@ -1,0 +1,127 @@
+<header #header class="header" [ngClass]="{ 'header--fixed': fixed, 'header--fixed-visible': fixed && fixedVisible, 'header--fixed-hidden': fixed && !fixedVisible, 'header--fixed-transition': fixedTransition }">
+  <div class="header__section">
+    <div class="header__inner">
+      <nav class="header__nav">
+        <app-avatar
+          src="../../../../assets/images/personal/avatar/Boruei-Chen.png"
+          name="BO-RUEI CHEN"
+          class="header__nav-avatar"
+          [attr.data-target-section-id]="mainPageSectionIdEnum.Profile"
+          (click)="handleNav($event)"
+        >
+        </app-avatar>
+        <app-icon
+          [name]="iconNamesEnum.Gallery"
+          class="header__nav-gallery-icon"
+          [attr.data-target-section-id]="mainPageSectionIdEnum.History"
+          [ngClass]="{ 'header__nav-gallery-icon--active': activeNav === mainPageSectionIdEnum.History }"
+          (click)="handleNav($event)"
+        >
+        </app-icon>
+        <ul class="header__nav-list">
+          <li
+            class="header__nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.Skills"
+            [ngClass]="{ 'header__nav-item--active': activeNav === mainPageSectionIdEnum.Skills }"
+            (click)="handleNav($event)"
+          >
+            專業技能
+          </li>
+          <li
+            class="header__nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.WorkExperience"
+            [ngClass]="{ 'header__nav-item--active': activeNav === mainPageSectionIdEnum.WorkExperience }"
+            (click)="handleNav($event)"
+          >
+            工作經歷
+          </li>
+          <li
+            class="header__nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.ProjectExperience"
+            [ngClass]="{ 'header__nav-item--active': activeNav === mainPageSectionIdEnum.ProjectExperience }"
+            (click)="handleNav($event)"
+          >
+            專案經歷
+          </li>
+          <li
+            class="header__nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.SideProjects"
+            [ngClass]="{ 'header__nav-item--active': activeNav === mainPageSectionIdEnum.SideProjects }"
+            (click)="handleNav($event)"
+          >
+            個人專案
+          </li>
+        </ul>
+      </nav>
+      <div class="header__menu-btn" [ngClass]="{ 'header__menu-btn--close': menuVisible }" (click)="handleToggleMenuVisible(!menuVisible)">
+        <span class="header__menu-btn-stuffing"></span>
+        <span class="header__menu-btn-stuffing"></span>
+        <span class="header__menu-btn-stuffing"></span>
+      </div>
+    </div>
+  </div>
+  <div class="header__section">
+    <div class="header__inner">
+      <ul class="header__contact-list">
+        <li class="header__contact-item">+886 981772822</li>
+        <li class="header__contact-item">boruei.brc@gmail.com</li>
+      </ul>
+      <hr class="header__divider">
+      <div class="header__links">
+        <a href="https://instagram.com/boruei.brc?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="header__link">
+          <app-icon [name]="iconNamesEnum.Instagram" [color]="iconColorsEnum.Grayscale" [width]="16" [height]="16"></app-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/%E6%9F%8F%E7%9D%BF-%E9%99%B3-a2719229a/" target="_blank" class="header__link">
+          <app-icon [name]="iconNamesEnum.LinkedIn" [color]="iconColorsEnum.Grayscale" [width]="15" [height]="15"></app-icon>
+        </a>
+        <a href="https://github.com/boruei-chen" target="_blank" class="header__link">
+          <app-icon [name]="iconNamesEnum.GitHub" [color]="iconColorsEnum.Grayscale" [width]="15.55" [height]="15"></app-icon>
+        </a>
+        <a href="https://www.npmjs.com/~boruei.chen" target="_blank" class="header__link">
+          <app-icon [name]="iconNamesEnum.npm" [color]="iconColorsEnum.Grayscale" [width]="23.8" [height]="10"></app-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="header__menu" [ngClass]="{ 'header__menu--active': menuVisible, 'header__menu--inactive': !menuVisible }">
+    <div class="header__menu-backdrop" (click)="handleToggleMenuVisible(false)"></div>
+    <div class="header__menu-body">
+      <nav class="header__menu-nav">
+        <ul class="header__menu-nav-list">
+          <li
+            class="header__menu-nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.Skills"
+            [ngClass]="{ 'header__menu-nav-item--active': activeNav === mainPageSectionIdEnum.Skills }"
+            (click)="handleNav($event)"
+          >
+            專業技能
+          </li>
+          <li
+            class="header__menu-nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.WorkExperience"
+            [ngClass]="{ 'header__menu-nav-item--active': activeNav === mainPageSectionIdEnum.WorkExperience }"
+            (click)="handleNav($event)"
+          >
+            工作經歷
+          </li>
+          <li
+            class="header__menu-nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.ProjectExperience"
+            [ngClass]="{ 'header__menu-nav-item--active': activeNav === mainPageSectionIdEnum.ProjectExperience }"
+            (click)="handleNav($event)"
+          >
+            專案經歷
+          </li>
+          <li
+            class="header__menu-nav-item"
+            [attr.data-target-section-id]="mainPageSectionIdEnum.SideProjects"
+            [ngClass]="{ 'header__menu-nav-item--active': activeNav === mainPageSectionIdEnum.SideProjects }"
+            (click)="handleNav($event)"
+          >
+            個人專案
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,12 @@
+<app-header
+  [fixed]="headerState.fixed"
+  [fixedVisible]="headerState.fixedVisible"
+  [fixedTransition]="headerState.fixedTransition"
+  [activeNav]="headerState.activeNav"
+  (navChange)="handleMainPageScrollToTargetSection($event)"
+>
+</app-header>
+<main>
+  <ng-content></ng-content>
+</main>
+<app-footer></app-footer>

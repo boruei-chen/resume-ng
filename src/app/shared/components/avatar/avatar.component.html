@@ -1,0 +1,12 @@
+<div #avatar class="avatar" [style.width.px]="width" [style.height.px]="height">
+  <ng-container *ngIf="src else avatarAbbr">
+    <div class="avatar__media">
+      <img [src]="src" [alt]="name">
+    </div>
+  </ng-container>
+  <ng-template #avatarAbbr>
+    <div class="avatar__abbr" [style.fontSize.px]="abbrFontSizeState">
+      {{ name | firstChar }}
+    </div>
+  </ng-template>
+</div>
